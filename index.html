@@ -1,0 +1,59 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iswarya-F2-Mini-Project-Jan29th</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .hide {
+        display: none !important;
+      }
+
+      .car {
+        position: absolute;
+        height: 50px;
+        width: 30px;
+        bottom: 0px;
+        left: 200px;
+        margin: auto;
+        background-size: cover;
+      }
+      .gameScreen {
+        background-color: rgb(75, 71, 71);
+        height: 100vh;
+        position: relative;
+        margin: auto;
+        width: 30vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="user-name">Iswarya</div>
+      <div class="score-section">
+        score :
+        <span class="score"></span>
+      </div>
+      <div class="high-score-section">
+        Highest-score :
+        <span class="Highest-score"></span>
+      </div>
+      <div class="leaderboard">
+        <a href="#" style="text-decoration: none; color: aliceblue"
+          >leaderboard</a
+        >
+      </div>
+    </div>
+
+    <div class="gameArea">
+      <div class="startScreen" style="border: 1px solid white">
+        <h1>Welcome to game area</h1>
+        <p>click here to start</p>
+      </div>
+      <div class="gameScreen hide"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
